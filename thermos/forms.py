@@ -16,6 +16,7 @@ class BookmarkForm(Form):
             # self.url.data = "http://" + self.url.data
             pass
 
+
         if not Form.validate(self):
             return False
 

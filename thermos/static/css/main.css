@@ -398,3 +398,12 @@ tr.submit button {
 input, button {
     margin-left: 10px;
 }
+
+/*=======================================================
+Jobaya's custom
+==========================================================*/
+a:visited {
+    color: green;
+}a:hover, aside a:hover, aside a:visited:hover {
+    color: orangered;
+}
