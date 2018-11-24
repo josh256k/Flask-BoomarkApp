@@ -407,3 +407,29 @@ a:visited {
 }a:hover, aside a:hover, aside a:visited:hover {
     color: orangered;
 }
+span.editlinks {
+    float: right;
+}
+/* Boomark sytling */
+ul.bookmarks {
+    list-style: none none;
+    padding-left: 0;
+}
+ ul.bookmarks li {
+     padding-bottom: .5em;
+     border-top: 1px solid #7EA6BF;
+     padding: 1em 0;
+ }
+
+ a.header {
+     color: rgb(21, 22, 19);
+     text-decoration: none;
+     display: block;
+}
+a.header h3 {
+    margin: 0 0;
+}
+div.info {
+    font-size: .95em;
+    color: #666666
+}

@@ -7,7 +7,7 @@
         <p>This a is a simple bookmarking site</p>
     </header>
     <section>
-        <h2>Recently added</h2><hr>
+        <h2>Recently added</h2>
         {% if new_bookmarks.count() > 0 %}
             {% with bookmarks=new_bookmarks %}
                 {% include "bookmark_list.html" %}
