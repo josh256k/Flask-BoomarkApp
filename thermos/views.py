@@ -1,4 +1,4 @@
-from flask import render_template, url_for, redirect, flash, request, redirect
+from flask import render_template, url_for, redirect, flash, request, redirect, abort
 from flask_login import login_required, login_user, logout_user, current_user
 from thermos import app, db, login_manager
 from thermos.forms import BookmarkForm, LoginForm, SignupForm
