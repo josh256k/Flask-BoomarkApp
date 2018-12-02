@@ -1,6 +1,6 @@
 from flask_script import Manager, prompt_bool
 from thermos import app, db
-from thermos.models import User
+from thermos.models import User, Bookmark, Tag
 from flask_migrate import Migrate, MigrateCommand
 
 
